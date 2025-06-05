@@ -36,7 +36,7 @@ export default function Home() {
           creatives who are excited to help you grow your business.
         </p>
 
-        <div className="flex justify-center gap-4 mt-6">
+        <div className="flex items-center justify-center gap-4 mt-6 flex-col md:flex-row">
           <Link
             href="https://portfolio-iota-wine-60.vercel.app/" target="_blank"
             className="cursor-pointer flex items-center justify-center border
@@ -50,7 +50,7 @@ export default function Home() {
             href="https://wa.me/9945043832" target="_blank"
             className="cursor-pointer flex items-center justify-center border
                          border-blue-700
-                   rounded-full w-54  p-0 md:p-2 text-black bg-neutral-100"
+                   rounded-full w-54  p-2 md:p-2 text-black bg-neutral-100"
           >
             <FaWhatsapp size={20} />&nbsp;Chat on whatsApp
           </Link>
