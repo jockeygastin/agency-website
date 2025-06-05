@@ -22,9 +22,9 @@ export default function Home() {
         fill="white"
       />
 
-      <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-32 px-2">
+      <div className="p-4 mx-auto relative z-10 w-full pt-24 md:pt-32 px-2">
         <div
-          className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent
+          className="text-4xl pb-6 md:text-7xl px-4 text-center bg-clip-text text-transparent
        bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50"
         >
           Create, grow, and <br /> Scale your Business
