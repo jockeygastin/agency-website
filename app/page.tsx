@@ -15,9 +15,9 @@ import Faq from "./faq";
 
 export default function Home() {
   return (
-    <div className="w-full h-full md:items-center md:justify-center bg-black/[0.96] antialiased by-grid-white/[0.2] relative overflow-hidden">
-      <Navbar />
-      <Spotlight
+     <div className=" top-0 z-[-2] h-screen w-screen bg-green-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]">
+           <Navbar />
+       <Spotlight
         className="hidden md:flex left-80 "
         fill="white"
       />

@@ -17,7 +17,6 @@ export const projects = [
       "We build fully responsive websites that look great on all devices. Our websites are designed to convert visitors into customers.",
   },
 
-
   {   
     icon : <div className="bg-blue-100 p-2 rounded-full"><PiMonitor className="w-8 h-8 text-blue-600" /></div>,
     title: "SEO Optimization",

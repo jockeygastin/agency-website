@@ -45,11 +45,11 @@ const Brands = () => {
         <div>
             <div className="p-4 mx-auto relative z-10 w-full pt-20 md:pt-32">
                 <div className="text-4xl md:pb-8 md:text-7xl text-center bg-clip-text text-transparent
-                   bg-gradient-to-b from-purple-500 to-sky-200 bg-opacity-50">
+                   bg-gradient-to-b from-purple-900 to-black bg-opacity-50">
                     The Best Brands <br /> choose us
                   </div>
 
-                  <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-center mx-auto">
+                  <p className="mt-4 text-lg font-normal text-neutral-900 max-w-lg text-center mx-auto">
                     From small business to large corporations, we have helped many brands elevate their business.
                   </p>
 
@@ -77,7 +77,7 @@ const Brands = () => {
 
                       &quot; We are a team of creatives who are excited to help you grow your business. &quot;
                       </div>
-                      <div className="items-center flex justify-center flex-col text-white">
+                      <div className="items-center flex justify-center flex-col">
                         <Image
                            src="/logo.png"
                            alt="logo"
